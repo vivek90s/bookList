@@ -122,4 +122,14 @@ box-shadow:  5px 5px 8px #2a2c2d,
     
  }
 
+ 
+form {
+  margin:  4rem 1rem;
+  border-radius: 41px;
+background: #343637;
+box-shadow:  5px 5px 8px #2a2c2d, 
+             -5px -5px 8px #3e4041;
+   height: 72vh;          
+}
+
 }
