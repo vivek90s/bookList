@@ -51,10 +51,14 @@ body{
 background: #ebebeb;
 } */
 
+html{
+  padding: 0!important;
+  margin: 0!important; 
+  box-sizing: border-box;
+}
 
 body{
   background: #343637;
-  
 }
 
 form {
@@ -110,6 +114,25 @@ box-shadow:  5px 5px 8px #2a2c2d,
   color: whitesmoke;
 }
 
+footer{
+  box-shadow:  5px 5px 8px #2a2c2d, 
+             -5px -5px 8px #3e4041;
+  color: white;  
+  height: 10vh;
+  text-align: center; 
+  margin-top: 10em;
+}
+footer a{
+  list-style: none;
+  outline-style: none;    
+  color: white;
+  font-weight: 800;
+  
+}
+footer p{
+   padding-top: 1em; 
+}
+
 @media only screen and (max-width: 800px){
 
   .submit-button{
@@ -119,7 +142,7 @@ box-shadow:  5px 5px 8px #2a2c2d,
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 2em;
-    margin-top: 2em;
+    
  }
 
  
@@ -129,7 +152,7 @@ form {
 background: #343637;
 box-shadow:  5px 5px 8px #2a2c2d, 
              -5px -5px 8px #3e4041;
-   height: 65vh;          
+   height: 60vh;          
 }
 
 }
