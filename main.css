@@ -60,7 +60,9 @@ html{
 body{
   background: #343637;
 }
-
+.container i, span {
+  font-family: 'Luckiest Guy', cursive;
+}
 form {
   margin: 4rem 4rem;
   border-radius: 41px;
@@ -125,7 +127,7 @@ footer{
 footer a{
   list-style: none;
   outline-style: none;    
-  color: #45d0ff;
+  color: white;
   font-weight: 800;
   
 }
